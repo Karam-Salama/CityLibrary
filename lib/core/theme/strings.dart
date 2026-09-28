@@ -6,7 +6,7 @@ class AppStrings {
   AppStrings._(); // يمنع عمل instance من الكلاس
 
   // ==================== عام (Common) ====================
-  static const String appName = 'مكتبة المدينة';
+  static const String appName = 'رَفّ';
   static const String appTagline = 'كل كتاب، في مكانه الصحيح';
   static const String appVersion = 'الإصدار 1.0.0';
 

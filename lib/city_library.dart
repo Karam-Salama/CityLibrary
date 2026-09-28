@@ -1,4 +1,5 @@
 import 'package:citylibrary/core/routing/app_router.dart';
+import 'package:citylibrary/core/theme/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -14,7 +15,7 @@ class CityLibrary extends StatelessWidget {
       child: MaterialApp(
         onGenerateRoute: appRouter.onGenerateRoute,
         initialRoute: Routes.splash,
-        title: 'City Library',
+        title: AppStrings.appName,
         debugShowCheckedModeBanner: false,
       ),
     );
