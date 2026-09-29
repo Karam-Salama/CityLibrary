@@ -25,7 +25,7 @@ class AppStrings {
   static const String splashSubtitle = appTagline;
 
   // ==================== التعريفية (Onboarding) ====================
-  static const String onboarding1Title = 'تصفّح آلاف الكتب';
+  static const String onboarding1Title = 'تصفّح آلاف \nالكتب';
   static const String onboarding1Body =
       'ابحث عن أي كتاب في شبكة الفروع بالكامل، واعرف فورًا إن كان متاحًا أم لا.';
 

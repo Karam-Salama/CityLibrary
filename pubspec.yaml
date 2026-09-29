@@ -83,6 +83,6 @@ flutter:
 
 #==================================  Generate  Flutter  Assets  Section  ==============================
 flutter_assets:
-  assets_path: assets/images/
+  assets_path: assets/svgs/
   output_path: lib/core/theme/
   filename: assets.dart

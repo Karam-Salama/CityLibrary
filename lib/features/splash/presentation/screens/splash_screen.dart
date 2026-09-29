@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/routing/routes.dart';
@@ -6,6 +5,7 @@ import '../../../../core/theme/colors.dart';
 import '../widgets/splash_logo.dart';
 import '../widgets/splash_text.dart';
 import '../widgets/splash_version.dart';
+import '../../../../core/helpers/extensions.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -18,12 +18,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    _delayedNavigate();
+  }
 
+  void _delayedNavigate() {
     Future.delayed(const Duration(seconds: 3), () {
-      if (!kIsWeb) {
-        // ignore: use_build_context_synchronously
-        Navigator.pushReplacementNamed(context, Routes.onboarding);
-      }
+      if (!mounted) return;
+      context.pushReplacementNamed(Routes.onboarding);
     });
   }
 
