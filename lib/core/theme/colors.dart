@@ -16,6 +16,9 @@ class AppColors {
   static const primaryColorSoft = Color(0xFF41594A);
 
   /// اللون الثانوي / المميز — تسميات، تفاصيل، إشعارات خفيفة (--brass)
+  static const backgroundButtonColor = Color(0xFF2E3F34);
+
+  /// اللون الثانوي / المميز — تسميات، تفاصيل، إشعارات خفيفة (--brass)
   static const secondaryColor = Color(0xFFA67C52);
 
   /// نسخة فاتحة من اللون الثانوي — خلفيات الشارات والتنبيهات (--brass-soft)
@@ -65,5 +68,5 @@ class AppColors {
 
   // ==================== ألوان الحدود والفواصل ====================
   /// لون الحدود والخطوط الفاصلة (--line)
-  static const backGroundApp = Color(0xFFDCD3C1);
+  static const backGroundApp = Color(0xFFF7F3EC); // F7F3EC
 }

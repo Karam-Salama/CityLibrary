@@ -1,9 +1,5 @@
-/// نصوص التطبيق الثابتة (بالعربي)
-///
-/// كل النصوص اللي بتظهر في الواجهات، مقسّمة حسب الشاشة/القسم
-/// عشان لو أي نص اتغيّر يتغيّر من مكان واحد بس.
 class AppStrings {
-  AppStrings._(); // يمنع عمل instance من الكلاس
+  AppStrings._();
 
   // ==================== عام (Common) ====================
   static const String appName = 'رَفّ';
@@ -25,17 +21,17 @@ class AppStrings {
   static const String splashSubtitle = appTagline;
 
   // ==================== التعريفية (Onboarding) ====================
-  static const String onboarding1Title = 'تصفّح آلاف \nالكتب';
+  static const String onboarding1Title = 'تصفّح آلاف الكتب';
   static const String onboarding1Body =
-      'ابحث عن أي كتاب في شبكة الفروع بالكامل، واعرف فورًا إن كان متاحًا أم لا.';
+      'إستعرض الكتب المتاحة في مكتبتك\n وإكتشف مايناسبك منها بسهولة';
 
   static const String onboarding2Title = 'إعارة وإرجاع بضغطة';
   static const String onboarding2Body =
-      'امسح باركود النسخة، واختر العضو، وسجّل الإعارة أو الإرجاع في ثوانٍ.';
+      'إمسح باركور النسخة وإختر العضو \n وسجل الإعارة أو الإرحاع فى ثوانى';
 
   static const String onboarding3Title = 'تابع غراماتك بوضوح';
   static const String onboarding3Body =
-      'إشعارات قبل موعد الاستحقاق، وسجل واضح لأي غرامات مستحقة أو مدفوعة.';
+      'إشعارات قبل موعد الإستحقاق وسجل واضح \n لكل الغرامات المستحقة والمدفوعة';
 
   // ==================== تسجيل الدخول (Login) ====================
   static const String loginSubtitle = 'سجّل دخولك لمتابعة عملك';
